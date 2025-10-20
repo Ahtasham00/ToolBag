@@ -14,8 +14,8 @@ def ppt_to_pdf(input_path, output_path=None):
 
 # Example usage
 
-input_path = "file1.pptx"
-output_path = "outputfile1.pdf"
+input_path = r"D:\ToolBag\pdf\Reactive Intermediates IntroductionLect#1.pptx"
+output_path = r"D:\ToolBag\output\Reactive Intermediates IntroductionLect#1.pdf"
 
 ppt_to_pdf(input_path, output_path)
 
