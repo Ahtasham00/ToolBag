@@ -2,10 +2,8 @@
 #Adding page vertically
 from pypdf import PdfReader, PdfWriter, PageObject
 
-input_path = "temp/Reactive Intermediates IntroductionLect#1.pdf"
-output_path = "output/Reactive Intermediates IntroductionLect#1.pdf"
-
-
+input_path = "Documents.pdf"
+output_path = "Experience.pdf"
 
 reader = PdfReader(input_path)
 writer = PdfWriter()

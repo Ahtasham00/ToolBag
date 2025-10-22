@@ -7,7 +7,7 @@ def merge_pdfs(pdf1_path, pdf2_path):
     os.makedirs("temp", exist_ok=True)
     
     # Define merged file path
-    merged_path = os.path.join("temp", "merged.pdf")
+    merged_path = os.path.join("temp", "FaizanDocuments.pdf")
     
     # Merge the PDFs
     merger = PdfMerger()
@@ -17,3 +17,6 @@ def merge_pdfs(pdf1_path, pdf2_path):
     merger.close()
     
     return merged_path
+
+
+merge_pdfs("1.pdf","Faizan.pdf")
